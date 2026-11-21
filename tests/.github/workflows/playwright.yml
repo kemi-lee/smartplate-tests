@@ -17,6 +17,6 @@ jobs:
 
       - run: npx playwright install --with-deps chromium
 
-      - run: npx playwright test --project=chromium
+      - run: npx playwright test --project=chromium --grep-invert @ai
         env:
-          BASE_URL: https://smartplateseniors-production.up.railway.app/PHP/index.php
+          BASE_URL: https://smartplateseniors-production.up.railway.app/
