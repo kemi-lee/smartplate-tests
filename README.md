@@ -1,5 +1,7 @@
 # SmartPlate Tests
 
+![Playwright Tests](https://github.com/kemi-lee/smartplate-tests/actions/workflows/playwright.yml/badge.svg)
+
 Automated end-to-end tests for SmartPlate, a full-stack nutrition web app (PHP, MySQL, Bootstrap, JavaScript), written with Playwright.
 
 ## What's covered
