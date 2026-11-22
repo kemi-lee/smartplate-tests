@@ -22,3 +22,7 @@ Login, registration, logout, access control, dashboard, shopping list, and the d
 
 ## Testing approach
 Tests were first done manually during development, then the critical user flows were automated.
+
+## Continuous integration
+
+Every push to this repo runs the Playwright suite in GitHub Actions against the deployed SmartPlate site on Railway. The workflow installs dependencies, installs Chromium, and runs the tests. The test account's login is stored in GitHub Secrets, not in the code. The two AI-feature tests (tagged `@ai`) are skipped in CI because they call the Claude API, so I run those locally.
