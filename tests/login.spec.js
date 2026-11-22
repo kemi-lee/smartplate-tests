@@ -36,4 +36,4 @@ test.describe('Login', () => {
     await page.getByRole('button', { name: /sig/i }).click();
     await expect(page).toHaveURL(/login\.php/);
   });
-});
+});   
